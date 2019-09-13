@@ -1,11 +1,5 @@
 var files = [
   "index.html",
-  "lavagem-simples.html",
-  "lavagem-completa.html",
-  "higienizacao.html",
-  "polimento-simples.html",
-  "polimento-cristalizado.html",
-  "principal.html",
   "loja-adidas.html",
   "loja-bacio-di-latte.html",
   "loja-brooksfield.html",
