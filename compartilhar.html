@@ -7,6 +7,11 @@
     <meta name="description" content="Lava Jato Maximus Brilho - Floriano/PI">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://use.fontawesome.com/releases/v5.0.6/css/all.css' rel='stylesheet'/>
+    <meta property="og:url"           content="https://www.maxbrilho.ga" />
+    <meta property="og:type"          content="Lava Jato Maximus Brilho de Floriano/PI" />
+    <meta property="og:title"         content="MaxBrilho" />
+    <meta property="og:description"   content="Lava Jato em Floriano-PI" />
+    <meta property="og:image"         content="https://www.maxbrilho.ga/img/capa.jpg" />
     <link rel="stylesheet" href="css/main.css">
     
     <link rel="manifest" href="manifest.json">
@@ -33,6 +38,16 @@
 
 </head>
 <body>
+<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+	
 <div class="current-page">
 
 
@@ -87,7 +102,9 @@
 					<h6 class="container blue-grey-text">Compartilhe este app nas suas principais Redes Sociais</h6>
 					<div class="collection">
 		     	
-				<a class="collection-item waves-effect black-text" 
+				<a class="collection-item waves-effect black-text"
+				   <div class="fb-share-button" data-href="https://www.your-domain.com/your-page.html" data-layout="button_count">
+  </div>
 				   href="https://www.facebook.com/sharer.php?url='https://www.maxbrilho.ga' rel='nofollow' style='background:#3b5998;'"><i class="fab fa-facebook-square"></i> Facebook</a>
 
 				<a class="collection-item waves-effect black-text" 
