@@ -5,10 +5,10 @@ if(window.PaymentRequest) {
       [{ supportedMethods: ['basic-card'] }],
       {  
         total: {
-          label: 'Estacionamento diário',  
+          label: 'Lavagem',  
           amount:{  
             currency: 'BRL',  
-            value: 10
+            value: 35
           }  
         }
       },
