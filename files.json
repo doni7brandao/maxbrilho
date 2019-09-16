@@ -30,6 +30,8 @@ var files = [
   "img/entrada.jpg",
   "img/icon.png",
   "img/ticket.png",
+  "img/facebook.png",
+  "img/whatsapp.png",
   "js/barcode.js",
   "js/install.js",
   "js/main.js",
