@@ -4,6 +4,7 @@ CACHE MANIFEST
 CACHE:
 ./files.json
 ./index.html
+./compartilhar.html
 ./lavagem-simples.html
 ./lavagem-completa.html
 ./higienizacao.html
