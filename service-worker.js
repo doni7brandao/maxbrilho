@@ -1,5 +1,6 @@
 var files = [
   "index.html",
+  "compartilhar.html",
   "lavagem-simples.html",
   "lavagem-completa.html",
   "higienizacao.html",
